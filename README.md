@@ -1,1 +1,1 @@
-# DjangoConcepts
+SQL quering with MYSQL database
