@@ -1,0 +1,35 @@
+Question:
+
+Define an Employees table, with the following fields:
+
+id - number(automatically increments), mandatory, primary key
+last_name - text, mandatory
+first_name - text, mandatory
+middle_name - text, not mandatory
+age - number mandatory
+current_status - text, mandatory, defaults to 'employed'
+
+
+
+Answer:
+
+#CREATE DATABASE organisation
+
+USE organisation;
+
+CREATE TABLE employees(
+id INT NOT NULL AUTO_INCREMENT, PRIMARY KEY (id), 
+last_name VARCHAR(30) NOT NULL, 
+first_name VARCHAR(30) NOT NULL, 
+middle_name VARCHAR(30), 
+age INT NOT NULL,
+current_status varchar(20) NOT NULL DEFAULT 'employed'
+)
+
+
+
+
+
+
+
+
