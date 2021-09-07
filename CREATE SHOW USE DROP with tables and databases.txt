@@ -1,0 +1,19 @@
+#CREATE DATABASE mydatabase;
+
+#USE mydatabase;
+#CREATE TABLE mytable
+#(
+#	name VARCHAR(100),	age INT
+#);
+
+
+
+#SHOW DATABASES
+#USE mydatabase;
+#SHOW TABLES
+#SHOW COLUMNS FROM mytable
+#DESC mytable
+
+
+#DROP TABLE mytable
+DROP DATABASE mydatabase
