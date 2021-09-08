@@ -21,4 +21,15 @@ JOIN orders as o
 
 OUTER JOIN: If we what all values even if that are mapped/available in both tables we use OUTER
 
+LEFT JOIN: All the results from LEFT table are shown
+i.e all employee details are shown whether they have placed order or not
+USE sql_store;
 
+SELECT c.customer_id, order_id, first_name, last_name
+FROM customers as c
+LEFT JOIN orders as o
+    ON c.customer_id = o.customer_id
+
+
+
+RIGHT JOIN: All the results from RIGHT table are shown
