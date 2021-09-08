@@ -1,0 +1,24 @@
+INNER JOIN - Only values which are mapped/available in both table will be displayed
+
+EX 1: Joining Customers table to orders table
+
+USE sql_store;
+
+SELECT o.customer_id, order_id, first_name, last_name
+FROM orders as o
+JOIN customers as c
+    ON o.customer_id = c.customer_id
+
+EX 2: Joining orders table to customer table
+
+USE sql_store;
+
+SELECT order_id, c.customer_id, first_name, last_name
+FROM customers as c
+JOIN orders as o
+    ON c.customer_id = o.customer_id
+
+
+OUTER JOIN: If we what all values even if that are mapped/available in both tables we use OUTER
+
+
