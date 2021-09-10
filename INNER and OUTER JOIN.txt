@@ -21,6 +21,11 @@ JOIN orders as o
 
 OUTER JOIN: If we what all values even if that are mapped/available in both tables we use OUTER
 
+
+
+
+
+
 LEFT JOIN: All the results from LEFT table are shown
 i.e all employee details are shown whether they have placed order or not
 USE sql_store;
