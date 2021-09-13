@@ -1,0 +1,21 @@
+USE book_shop;
+# No of books in the database
+#SELECT COUNT(*) FROM books
+
+# How many books released in each year
+#SELECT released_year, COUNT(*) FROM books GROUP BY released_year
+#ORDER BY released_year
+
+# Total no of books in Stock
+#SELECT SUM(stock_quantity) FROM books
+
+# Find the average released_year for each author
+#SELECT author_fname, author_lname, (released_year) FROM books GROUP BY author_fname, author_lname
+
+# Find the full name of the author who wrote the longest book
+
+#SELECT CONCAT(author_lname, " ", author_fname) AS "Full name", pages FROM books ORDER BY pages DESC LIMIT 1
+
+
+-- SELECT CONCAT(author_lname, " ", author_fname) AS "Full name", pages FROM books
+-- WHERE pages = (SELECT MAX(pages) FROM books)
