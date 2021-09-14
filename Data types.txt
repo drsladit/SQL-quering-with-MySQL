@@ -1,0 +1,11 @@
+USE Datetime;
+
+#CREATE TABLE family (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(50), birthdate DATE, birthtime TIME, birthdt DATETIME)
+
+#DESC family
+
+#INSERT INTO family (name, birthdate, birthtime, birthdt) VALUES ("Surya Kumari", "1950-12-15", "05:05:30", "1950-12-15 05:05:30")
+
+#INSERT INTO family (name, birthdate, birthtime, birthdt) VALUES ("Lovely", CURDATE(), CURTIME(), NOW())
+
+SELECT * FROM family
