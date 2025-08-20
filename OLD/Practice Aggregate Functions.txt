@@ -21,5 +21,4 @@ USE book_shop;
 -- WHERE pages = (SELECT MAX(pages) FROM books)
 
 # How many books released in each year and average pages
-
 #SELECT released_year, COUNT(*), AVG(pages) FROM books GROUP BY released_year ORDER BY released_year

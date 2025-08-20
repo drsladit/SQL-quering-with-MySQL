@@ -1,0 +1,7 @@
+
+1. 2 order by in a sinlge query
+select title, rental_rate, rental_duration from film 
+order by rental_rate, rental_duration DESC 
+limit 10 offset 5;
+
+2. offset usage
